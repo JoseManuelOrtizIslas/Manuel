@@ -39,7 +39,7 @@ bot.onText(/^\Imagen/, function (msg, match) {
     console.log(msg);
     var photo='/Users/yofo/Desktop/Salvador/ManuelOIbot/assets/images/persona.jpg';
     bot.sendPhoto(msg.chat.id,photo,{caption: "Imagen de Scarlett Johansson :)"}).then(function (){
-       console.log("Envio de Imagen a "+name);
+       console.log("Envio de Imagen a ");
     });
 });
 
