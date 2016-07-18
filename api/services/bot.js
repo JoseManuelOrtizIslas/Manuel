@@ -21,7 +21,7 @@ bot.onText(/^\Hola/, function (msg, match) {
 bot.onText(/^\Soy (.+)$/, function (msg, match) {
     var name = match[1];
     console.log(msg);
-    bot.sendMessage(msg.chat.id, `Hola ${name}, soy un bot creado por ManuelOI y me programo siertos procesos, ¿Quieres verlos?`).then(function (){
+    bot.sendMessage(msg.chat.id, `Hola ${name}, soy un bot creado por ManuelOI y me programo ciertos procesos, ¿Quieres verlos?`).then(function (){
         console.log(`Respuesta 1 ${name}`);
     });
 });
